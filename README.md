@@ -29,7 +29,7 @@ Before running this application, ensure you have the following:
 Follow these steps to set up the project:
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/weather-monitoring-app.git
+   git clone https://github.com/jamedarkhasim/weather-monitoring-app.git
    ```
 2. **Navigate to the project directory**:
    ```bash
@@ -38,9 +38,7 @@ Follow these steps to set up the project:
 3. **Install the dependencies** (if any):
    ```bash
    npm install
-   
-
-
+   ```
 4. **Add your API key**:
    Open `script.js` and replace `"your_api_key_here"` with your actual OpenWeatherMap API key:
    ```javascript
