@@ -1,0 +1,226 @@
+/* General styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  background: #222; /* No background color */
+}
+
+/* Background video */
+#bgvideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.4; /* Reduced opacity for soft background effect */
+  filter: brightness(70%); /* Dimmed video for better text contrast */
+}
+
+/* Card style */
+.card {
+  background: rgba(255, 255, 255, 0.9); /* Transparent card */
+  color: #333;
+  padding: 2em;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 450px;
+  margin: 1em;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+}
+
+.card2 {
+  width: 100%;
+  max-width: fit-content;
+  margin: 1em;
+}
+
+/* Search bar */
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 44px;
+  width: 44px;
+  outline: none;
+  background: #121212; /* Bright modern color */
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #d9534f;
+}
+
+/* Search input */
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: rgba(255, 111, 97, 0.1); /* Subtle transparent background */
+  color: #333;
+  font-family: inherit;
+  font-size: 120%;
+  width: calc(100% - 100px);
+}
+
+h1.temp, h1.temp-feels-like {
+  margin: 0;
+  margin-bottom: 0.4em;
+  font-size: 22px;
+  color: #ff6f61; /* Accent color */
+}
+
+h1.temp-feels-like {
+  font-size: 18px;
+  color: #666;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  text-transform: capitalize;
+  margin-left: 8px;
+  color: #ff6f61;
+}
+
+/* Loading state */
+.weather.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.weather.loading:after {
+  visibility: visible;
+  content: "Loading...";
+  color: #333;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.dt {
+  font-size: xx-small;
+  color: #888;
+}
+
+/* Headings */
+.card h5, .card3 h5 {
+  color: #777;
+  margin: -1em 0em 1em;
+}
+
+/* Top and bottom card container layout */
+.topcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  margin-top: -55px;
+}
+
+.bottomcard {
+  height: 30vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Third card styling */
+.card3 {
+  background: rgba(255, 255, 255, 0.9); /* Transparent card */
+  color: #333;
+  padding: 2em;
+  border-radius: 25px;
+  width: 100%;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Box styling for forecast data */
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0em 1em;
+  padding: 1%;
+  width: 25%;
+  height: auto;
+  background-color: rgba(100, 149, 237, 0.2); /* Light blue boxes */
+  border-radius: 10px;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+  width: 60px;
+  height: 60px;
+}
+
+.ddt {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Dropdown container - positioned in top-left corner */
+#dropdown {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.9); /* Subtle background for dropdown */
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dropdown key styling */
+.dropkey {
+  font-size: medium;
+  padding: 0.5em;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dropkey:hover {
+  background-color: black;
+}
