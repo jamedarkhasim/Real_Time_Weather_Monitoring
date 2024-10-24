@@ -17,7 +17,9 @@ This is a real-time weather monitoring application that retrieves and displays w
 
 ## Technologies Used
 **Frontend**: HTML, CSS, JavaScript
+
 **API**: [OpenWeatherMap API](https://openweathermap.org/api)
+
 **Video Background**: [Pexels Video](https://www.pexels.com/video/puddle-of-water-856282/)
 
 ## Prerequisites
