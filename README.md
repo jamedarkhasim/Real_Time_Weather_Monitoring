@@ -11,7 +11,9 @@ This is a real-time weather monitoring application that retrieves and displays w
 **Background Video**: A visually appealing video related to weather runs in the background.
 
 ## Demo
- 
+
+![image](https://github.com/user-attachments/assets/ec697041-9e7c-4d2f-89d3-3c38b8ef8dff)
+
 
 ## Technologies Used
 **Frontend**: HTML, CSS, JavaScript
@@ -81,6 +83,6 @@ Contributions are welcome! Please fork this repository and submit pull requests 
 
 ## Contact
 **Author**: Jamedar Mohammed Khasim
-**Email**: your-email@example.com
+**Email**: jamedarmdkhasim@gmail.com
 Feel free to reach out for any queries or contributions!
 
