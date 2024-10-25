@@ -14,7 +14,7 @@ This is a real-time weather monitoring application that retrieves and displays w
 
 ![image](https://github.com/user-attachments/assets/ec697041-9e7c-4d2f-89d3-3c38b8ef8dff)
 
-You can check here:Weatherapp1 at http://127.0.0.1:8080
+
 
 
 ## Technologies Used
