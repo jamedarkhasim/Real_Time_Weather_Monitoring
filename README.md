@@ -85,6 +85,8 @@ Contributions are welcome! Please fork this repository and submit pull requests 
 
 ## Contact
 **Author**: Jamedar Mohammed Khasim
+
 **Email**: jamedarmdkhasim@gmail.com
+
 Feel free to reach out for any queries or contributions!
 
